@@ -1,19 +1,18 @@
 import setuptools
-import package
+import embedtools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 # python setup.py bdist_wheel --universal (BUILD)
-# python setup.py check (DIST)
 # python -m twine upload dist/* (UPDATE)
 
 setuptools.setup(
-    name="embedcolors",  # Replace with your own username
-    version=package.__version__,
+    name="embedtools",  # Replace with your own username
+    version=embedtools.__version__,
     author="Lukas Canter",
-    author_email="lilcanter07@gmain.com",
-    description="Embed color package for discord.py embeds.",
+    author_email="lilcanter07@gmail.com",
+    description="Embed tools package for discord.py embeds.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ItsKas/embedcolors",

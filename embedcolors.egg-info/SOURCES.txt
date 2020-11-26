@@ -1,7 +1,0 @@
-README.md
-setup.py
-embedcolors/__init__.py
-embedcolors.egg-info/PKG-INFO
-embedcolors.egg-info/SOURCES.txt
-embedcolors.egg-info/dependency_links.txt
-embedcolors.egg-info/top_level.txt
