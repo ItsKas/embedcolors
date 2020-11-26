@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="embedcolors",  # Replace with your own username
-    version="1.0",
+    version="0.1.0",
     author="Lukas Canter",
     author_email="lilcanter07@gmain.com",
     description="Embed color package for discord.py embeds.",
