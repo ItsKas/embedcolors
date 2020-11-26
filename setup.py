@@ -1,11 +1,12 @@
 import setuptools
+import package
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="embedcolors",  # Replace with your own username
-    version="0.1.0",
+    version=package.__version__,
     author="Lukas Canter",
     author_email="lilcanter07@gmain.com",
     description="Embed color package for discord.py embeds.",
