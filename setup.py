@@ -4,6 +4,10 @@ import package
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+# python setup.py bdist_wheel --universal (BUILD)
+# python setup.py check (DIST)
+# python -m twine upload dist/* (UPDATE)
+
 setuptools.setup(
     name="embedcolors",  # Replace with your own username
     version=package.__version__,
